@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>KardioPlaner PRO — planer diety przy wysokim LDL i trójglicerydach</title>
-<meta name="description" content="Planer diety oparty o wytyczne ESC/EAS dla osób z wysokim LDL i trójglicerydami. Liczy wskaźnik TG/HDL, limity tłuszczów nasyconych i cukrów prostych oraz tworzy raport do rozmowy z kardiologiem.">
+<meta name="description" content="Planer diety oparty o wytyczne ESC/EAS dla osób z wysokim LDL i trójglicerydami. Przelicza wskaźnik TG/HDL, wyznacza limity tłuszczów nasyconych i cukrów prostych oraz tworzy raport do rozmowy z kardiologiem.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="KardioPlaner PRO">
 <meta property="og:description" content="Planer diety przy wysokim LDL i trójglicerydach. Wskaźnik TG/HDL, limity ESC/EAS, raport dla kardiologa.">
@@ -23,7 +23,7 @@
   h1{font-size:clamp(1.6rem,5vw,2.3rem);line-height:1.2;color:#0f172a;margin:.25rem 0}
   h2{font-size:1.3rem;color:#0f172a;margin:2.25rem 0 .75rem}
   h3{font-size:1.05rem;color:#0f172a;margin:0 0 .35rem}
-  a{color:#1e3a8a}
+  a{color:#1e3a8a;text-decoration:underline}
   .lead{font-size:1.125rem;margin-top:.75rem}
   .grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));margin:1.25rem 0 0}
   .card,.plan{border:1px solid #d1d5db;border-radius:.5rem;padding:1rem}
@@ -33,6 +33,7 @@
   ul{padding-left:1.2rem}
   li{margin:.25rem 0}
   footer{border-top:1px solid #e5e7eb;margin-top:3rem;font-size:.9rem;color:#374151}
+  footer a{display:inline-block;padding:.75rem .25rem}
   :focus-visible{outline:3px solid #115e59;outline-offset:2px}
 </style>
 </head>
@@ -40,7 +41,7 @@
 <header>
   <div class="wrap">
     <h1>KardioPlaner PRO</h1>
-    <p class="lead">Planer diety dla osób z wysokim LDL i trójglicerydami. Liczy wskaźnik TG/HDL, pilnuje limitów z wytycznych ESC/EAS i tworzy raport, który zabierasz na wizytę u kardiologa.</p>
+    <p class="lead">Planer diety dla osób z wysokim LDL i trójglicerydami. Przelicza wskaźnik TG/HDL, wyznacza limity z ogólnych wytycznych ESC/EAS i tworzy raport, który zabierasz na wizytę u kardiologa.</p>
   </div>
 </header>
 
@@ -49,15 +50,15 @@
   <div class="grid">
     <div class="card">
       <h3>Wskaźnik TG/HDL</h3>
-      <p>Liczy stosunek trójglicerydów do HDL i pokazuje, czy dominują małe, gęste cząsteczki LDL.</p>
+      <p>Przelicza stosunek trójglicerydów do HDL i pokazuje, jak wypada na tle zakresów opisywanych w wytycznych.</p>
     </div>
     <div class="card">
       <h3>Limity ESC/EAS</h3>
-      <p>Wyznacza dzienny limit tłuszczów nasyconych i cukrów prostych na podstawie Twoich wyników.</p>
+      <p>Wyznacza dzienny limit tłuszczów nasyconych i cukrów prostych na podstawie wartości, które sam podasz.</p>
     </div>
     <div class="card">
-      <h3>Ochrona przepony</h3>
-      <p>Ogranicza wielkość pojedynczego posiłku, żeby zmniejszyć zadyszkę po jedzeniu.</p>
+      <h3>Mniejsze posiłki</h3>
+      <p>Przypomina o ograniczeniu wielkości pojedynczego posiłku w ciągu dnia.</p>
     </div>
     <div class="card">
       <h3>Raport dla lekarza</h3>
@@ -67,8 +68,8 @@
 
   <h2>Dla kogo</h2>
   <ul>
-    <li>Dla osób z podwyższonym LDL, trójglicerydami albo po zdarzeniu sercowo-naczyniowym.</li>
     <li>Dla osób, które chcą prowadzić dziennik diety i pokazać go kardiologowi.</li>
+    <li>Dla osób, które chcą wiedzieć, ile tłuszczów nasyconych i cukrów prostych jedzą dziennie.</li>
     <li>Dla osób starszych: duże czcionki, wysoki kontrast, logowanie bez hasła kodem z e-maila.</li>
   </ul>
 
@@ -86,7 +87,7 @@
     <div class="plan">
       <h3>PRO</h3>
       <div class="amount">29 zł / mies.</div>
-      <p>albo 199 zł / rok</p>
+      <p>albo 199 zł / rok. Ceny brutto. Subskrypcja, anulujesz w dowolnym momencie.</p>
       <ul>
         <li>Synchronizacja telefon, tablet, komputer</li>
         <li>Pełna historia i wykresy</li>

@@ -21,9 +21,9 @@ git add . && git commit -m "..." && git push
 
 ## Do podmiany przed wysłaniem KYC
 
-- [ ] E-mail kontaktowy `kontakt@kardioplaner.example` (miejsca: stopka `index.html`, `privacy.html`, `terms.html`).
+- [ ] E-mail kontaktowy `kontakt@kardioplaner.example`. Miejsca: stopka i CTA `index.html`, `privacy.html`, `terms.html`. TLD `.example` jest zarezerwowany i nie dostarcza poczty.
+- [ ] Tożsamość wydawcy `[imię i nazwisko lub nazwa]` oraz `[adres]`. Miejsca: `privacy.html` sekcja 1, `terms.html` sekcja 1.
 - [ ] Ceny i opis planów, jeśli różnią się od ustaleń.
-- [ ] Nazwa administratora danych w `privacy.html`.
 
 ## A11y
 
