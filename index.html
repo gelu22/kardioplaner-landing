@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KardioPlaner PRO — planer diety przy wysokim LDL i trójglicerydach</title>
+<meta name="description" content="Planer diety oparty o wytyczne ESC/EAS dla osób z wysokim LDL i trójglicerydami. Liczy wskaźnik TG/HDL, limity tłuszczów nasyconych i cukrów prostych oraz tworzy raport do rozmowy z kardiologiem.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="KardioPlaner PRO">
+<meta property="og:description" content="Planer diety przy wysokim LDL i trójglicerydach. Wskaźnik TG/HDL, limity ESC/EAS, raport dla kardiologa.">
+<meta property="og:url" content="https://gelu22.github.io/kardioplaner-landing/">
+<meta property="og:locale" content="pl_PL">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="KardioPlaner PRO">
+<meta name="twitter:description" content="Planer diety przy wysokim LDL i trójglicerydach. Raport dla kardiologa.">
+<meta name="theme-color" content="#0f766e">
+<style>
+  :root{color-scheme:light}
+  *{box-sizing:border-box}
+  body{margin:0;font:1rem/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:#1f2937;background:#fff}
+  .wrap{max-width:44rem;margin:0 auto;padding:2rem 1.25rem}
+  header{border-bottom:1px solid #e5e7eb}
+  h1{font-size:clamp(1.6rem,5vw,2.3rem);line-height:1.2;color:#0f172a;margin:.25rem 0}
+  h2{font-size:1.3rem;color:#0f172a;margin:2.25rem 0 .75rem}
+  h3{font-size:1.05rem;color:#0f172a;margin:0 0 .35rem}
+  a{color:#1e3a8a}
+  .lead{font-size:1.125rem;margin-top:.75rem}
+  .grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));margin:1.25rem 0 0}
+  .card,.plan{border:1px solid #d1d5db;border-radius:.5rem;padding:1rem}
+  .plan .amount{font-size:1.5rem;font-weight:700;color:#0f172a;margin:.35rem 0}
+  .cta{display:inline-block;background:#115e59;color:#fff;padding:.85rem 1.4rem;border-radius:.5rem;text-decoration:none;font-weight:600;margin:1.5rem 0 0}
+  .note{background:#f3f4f6;border-left:4px solid #115e59;padding:1rem;border-radius:.25rem;margin-top:2rem}
+  ul{padding-left:1.2rem}
+  li{margin:.25rem 0}
+  footer{border-top:1px solid #e5e7eb;margin-top:3rem;font-size:.9rem;color:#374151}
+  :focus-visible{outline:3px solid #115e59;outline-offset:2px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>KardioPlaner PRO</h1>
+    <p class="lead">Planer diety dla osób z wysokim LDL i trójglicerydami. Liczy wskaźnik TG/HDL, pilnuje limitów z wytycznych ESC/EAS i tworzy raport, który zabierasz na wizytę u kardiologa.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <h2>Co robi aplikacja</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Wskaźnik TG/HDL</h3>
+      <p>Liczy stosunek trójglicerydów do HDL i pokazuje, czy dominują małe, gęste cząsteczki LDL.</p>
+    </div>
+    <div class="card">
+      <h3>Limity ESC/EAS</h3>
+      <p>Wyznacza dzienny limit tłuszczów nasyconych i cukrów prostych na podstawie Twoich wyników.</p>
+    </div>
+    <div class="card">
+      <h3>Ochrona przepony</h3>
+      <p>Ogranicza wielkość pojedynczego posiłku, żeby zmniejszyć zadyszkę po jedzeniu.</p>
+    </div>
+    <div class="card">
+      <h3>Raport dla lekarza</h3>
+      <p>Zbiera 14 albo 30 dni diety, średnie spożycie i wykres wagi w jeden czytelny plik PDF.</p>
+    </div>
+  </div>
+
+  <h2>Dla kogo</h2>
+  <ul>
+    <li>Dla osób z podwyższonym LDL, trójglicerydami albo po zdarzeniu sercowo-naczyniowym.</li>
+    <li>Dla osób, które chcą prowadzić dziennik diety i pokazać go kardiologowi.</li>
+    <li>Dla osób starszych: duże czcionki, wysoki kontrast, logowanie bez hasła kodem z e-maila.</li>
+  </ul>
+
+  <h2>Plany i ceny</h2>
+  <div class="grid">
+    <div class="plan">
+      <h3>DARMOWY</h3>
+      <div class="amount">0 zł</div>
+      <ul>
+        <li>Kalkulator TG/HDL i nie-HDL</li>
+        <li>Podstawowa lista produktów</li>
+        <li>Dziennik tylko na tym urządzeniu</li>
+      </ul>
+    </div>
+    <div class="plan">
+      <h3>PRO</h3>
+      <div class="amount">29 zł / mies.</div>
+      <p>albo 199 zł / rok</p>
+      <ul>
+        <li>Synchronizacja telefon, tablet, komputer</li>
+        <li>Pełna historia i wykresy</li>
+        <li>Raport PDF dla kardiologa</li>
+        <li>Tygodniowa lista zakupów</li>
+      </ul>
+    </div>
+  </div>
+  <a class="cta" href="mailto:kontakt@kardioplaner.example?subject=KardioPlaner%20PRO%20-%20lista%20oczekuj%C4%85cych">Chcę dostęp do wersji beta</a>
+
+  <div class="note">
+    <strong>Ważne:</strong> KardioPlaner PRO wspiera edukację żywieniową i porządkuje dane. Nie diagnozuje i nie leczy. Nie zastępuje porady lekarza. Wyniki omów ze swoim kardiologiem.
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>
+      Kontakt: <a href="mailto:kontakt@kardioplaner.example">kontakt@kardioplaner.example</a><br>
+      <a href="privacy.html">Polityka prywatności</a> &middot; <a href="terms.html">Regulamin</a>
+    </p>
+    <p>&copy; 2026 KardioPlaner PRO</p>
+  </div>
+</footer>
+</body>
+</html>
